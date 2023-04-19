@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: normal;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+body {
+    font-family: "dm_sansregular";
+    font-size: 17px;
+    color: #0b0a0a;
+    overflow-x: hidden;
+    min-width: 320px;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Gordita Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../src/assets/fonts/gordita/Gordita Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "dm_sansbold";
+    src: url("../src/assets/fonts/DM_Sans/dmsans-bold-webfont.woff2")
+            format("woff2"),
+        url("../src/assets/fonts/DM_Sans/dmsans-bold-webfont.woff")
+            format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "dm_sansmedium";
+    src: url("../src/assets/fonts/DM_Sans/dmsans-medium-webfont.woff2")
+            format("woff2"),
+        url("../src/assets/fonts/DM_Sans/dmsans-medium-webfont.woff")
+            format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "dm_sansregular";
+    src: url("../src/assets/fonts/DM_Sans/dmsans-regular-webfont.woff2")
+            format("woff2"),
+        url("../src/assets/fonts/DM_Sans/dmsans-regular-webfont.woff")
+            format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "THICCOBOI-Regular";
+    src: url("../src/assets/fonts/thiccoboi/THICCCBOI-Regular.woff2")
+        format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+input,
+textarea,
+select {
+    font-family: "dm_sansregular";
+    font-weight: 500;
+}
+
+a {
+    color: #0b0a0a;
+}
+
+p {
+    line-height: 1.6em;
+    font-size: 16px;
+    font-family: "dm_sansregular";
+    font-weight: 500;
+    color: #0b0a0a;
+}
+
+br.clear {
+    clear: both;
+    line-height: 0;
+}
+
+.wrapper {
+    width: 84%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
