@@ -2,7 +2,7 @@ import React from "react";
 
 // Packages
 import styled from "styled-components";
-import { Link, NavLink, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 // icons
 import arrow from "../../../../assets/icons/landing-page/left-arrow.svg";

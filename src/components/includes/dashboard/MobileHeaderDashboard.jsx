@@ -2,13 +2,11 @@ import React, { useState } from "react";
 
 // Packages
 import styled from "styled-components";
-import { Link, NavLink } from "react-router-dom";
 
 // icons
 import logo from "../../../assets/images/logo.svg";
 import menubar from "../../../assets/icons/dashboard/menu-bar.svg";
 import search from "../../../assets/icons/dashboard/search.svg";
-import MobileMenu from "../Modals/MobileMenu";
 import DashboardMobileMenu from "../Modals/DashboardMobileMenu";
 
 export default function MobileHeaderDashboard() {

@@ -9,7 +9,6 @@ import underline from "../../../../assets/icons/landing-page/underline.svg";
 import arrow from "../../../../assets/icons/landing-page/arrow.svg";
 
 // Images
-import eventOne from "../../../../assets/images/landing-page/events/event-one.svg";
 import eventTwo from "../../../../assets/images/landing-page/events/event-two.svg";
 import eventThree from "../../../../assets/images/landing-page/events/event-three.svg";
 
@@ -30,103 +29,115 @@ export default function EventMoments() {
                     </Box>
                 </Top>
                 <Bottom>
-                <EventsContainer>
-                    <EventContainer>
-                        <EventImageContainer>
-                            <EventImage src={eventOne} alt="Meeting Image" />
-                        </EventImageContainer>
-                        <EventDate>Aug. 25, 2022</EventDate>
-                        <EventTitle>
-                            Ex-Minister and current MLA of the Kannur Assembly
-                            Constituency, Mr Kadannappalli Ramachandran visited
-                            Talrop's Techies Park
-                        </EventTitle>
-                        <EventDescription>
-                            As part of Talrop's Invest in Kerala campaign, a
-                            business meeting was organised on 28th August at
-                            Kannur.The event was held at Talrop's Techies Park,
-                            NAHER Arts and Science College, Kanhirode, Kannur
-                            and many potential Angel Investors took part in the
-                            meeting. Talked about the needs and opportunities of
-                            Angel Investors in a startup and the risks &
-                            benefits of Angel Investing were also discussed. A
-                            detailed overview of Talrop's mission...
-                        </EventDescription>
-                        <Button
-                            onClick={() => {
-                                navigate("/event-list-page");
-                            }}
-                        >
-                            <Texts>View More</Texts>
-                            <ArrowIconContainer>
-                                <ArrowIcon src={arrow} alt="Icon" />
-                            </ArrowIconContainer>
-                        </Button>
-                    </EventContainer>
-                    <EventContainer>
-                        <EventImageContainer>
-                            <EventImage src={eventTwo} alt="Meeting Image" />
-                        </EventImageContainer>
-                        <EventDate>Aug. 25, 2022</EventDate>
-                        <EventTitle>
-                            Ex-Minister and current MLA of the Kannur Assembly
-                            Constituency, Mr Kadannappalli Ramachandran visited
-                            Talrop's Techies Park
-                        </EventTitle>
-                        <EventDescription>
-                            As part of Talrop's Invest in Kerala campaign, a
-                            business meeting was organised on 28th August at
-                            Kannur.The event was held at Talrop's Techies Park,
-                            NAHER Arts and Science College, Kanhirode, Kannur
-                            and many potential Angel Investors took part in the
-                            meeting. Talked about the needs and opportunities of
-                            Angel Investors in a startup and the risks &
-                            benefits of Angel Investing were also discussed. A
-                            detailed overview of Talrop's mission...
-                        </EventDescription>
-                        <Button
-                            onClick={() => {
-                                navigate("/event-list-page");
-                            }}
-                        >
-                            <Texts>View More</Texts>
-                            <ArrowIconContainer>
-                                <ArrowIcon src={arrow} alt="Icon" />
-                            </ArrowIconContainer>
-                        </Button>
-                    </EventContainer>
-                    <EventContainer>
-                        <EventImageContainer>
-                            <EventImage src={eventThree} alt="Meeting Image" />
-                        </EventImageContainer>
-                        <EventDate>Aug. 25, 2022</EventDate>
-                        <EventTitle>
-                            Ex-Minister and current MLA of the Kannur Assembly
-                            Constituency, Mr Kadannappalli Ramachandran visited
-                            Talrop's Techies Park
-                        </EventTitle>
-                        <EventDescription>
-                            As part of Talrop's Invest in Kerala campaign, a
-                            business meeting was organised on 28th August at
-                            Kannur.The event was held at Talrop's Techies Park,
-                            NAHER Arts and Science College, Kanhirode, Kannur
-                            and many potential Angel Investors took part in the
-                            meeting. Talked about the needs and opportunities of
-                            Angel Investors in a startup and the risks &
-                            benefits of Angel Investing were also discussed. A
-                            detailed overview of Talrop's mission...
-                        </EventDescription>
-                        <Button
-                            onClick={() => {
-                                navigate("/event-list-page");
-                            }}
-                        >
-                            <Texts>View More</Texts>
-                            <ArrowIconContainer>
-                                <ArrowIcon src={arrow} alt="Icon" />
-                            </ArrowIconContainer>
-                        </Button>
-                    </EventContainer>
+                    <EventsContainer>
+                        <EventContainer>
+                            <EventImageContainer>
+                                <EventImage
+                                    src={eventThree}
+                                    alt="Meeting Image"
+                                />
+                            </EventImageContainer>
+                            <EventDate>Aug. 25, 2022</EventDate>
+                            <EventTitle>
+                                Ex-Minister and current MLA of the Kannur
+                                Assembly Constituency, Mr Kadannappalli
+                                Ramachandran visited Talrop's Techies Park
+                            </EventTitle>
+                            <EventDescription>
+                                As part of Talrop's Invest in Kerala campaign, a
+                                business meeting was organised on 28th August at
+                                Kannur.The event was held at Talrop's Techies
+                                Park, NAHER Arts and Science College, Kanhirode,
+                                Kannur and many potential Angel Investors took
+                                part in the meeting. Talked about the needs and
+                                opportunities of Angel Investors in a startup
+                                and the risks & benefits of Angel Investing were
+                                also discussed. A detailed overview of Talrop's
+                                mission...
+                            </EventDescription>
+                            <Button
+                                onClick={() => {
+                                    navigate("/event-list-page");
+                                }}
+                            >
+                                <Texts>View More</Texts>
+                                <ArrowIconContainer>
+                                    <ArrowIcon src={arrow} alt="Icon" />
+                                </ArrowIconContainer>
+                            </Button>
+                        </EventContainer>
+                        <EventContainer>
+                            <EventImageContainer>
+                                <EventImage
+                                    src={eventTwo}
+                                    alt="Meeting Image"
+                                />
+                            </EventImageContainer>
+                            <EventDate>Aug. 25, 2022</EventDate>
+                            <EventTitle>
+                                Ex-Minister and current MLA of the Kannur
+                                Assembly Constituency, Mr Kadannappalli
+                                Ramachandran visited Talrop's Techies Park
+                            </EventTitle>
+                            <EventDescription>
+                                As part of Talrop's Invest in Kerala campaign, a
+                                business meeting was organised on 28th August at
+                                Kannur.The event was held at Talrop's Techies
+                                Park, NAHER Arts and Science College, Kanhirode,
+                                Kannur and many potential Angel Investors took
+                                part in the meeting. Talked about the needs and
+                                opportunities of Angel Investors in a startup
+                                and the risks & benefits of Angel Investing were
+                                also discussed. A detailed overview of Talrop's
+                                mission...
+                            </EventDescription>
+                            <Button
+                                onClick={() => {
+                                    navigate("/event-list-page");
+                                }}
+                            >
+                                <Texts>View More</Texts>
+                                <ArrowIconContainer>
+                                    <ArrowIcon src={arrow} alt="Icon" />
+                                </ArrowIconContainer>
+                            </Button>
+                        </EventContainer>
+                        <EventContainer>
+                            <EventImageContainer>
+                                <EventImage
+                                    src={eventThree}
+                                    alt="Meeting Image"
+                                />
+                            </EventImageContainer>
+                            <EventDate>Aug. 25, 2022</EventDate>
+                            <EventTitle>
+                                Ex-Minister and current MLA of the Kannur
+                                Assembly Constituency, Mr Kadannappalli
+                                Ramachandran visited Talrop's Techies Park
+                            </EventTitle>
+                            <EventDescription>
+                                As part of Talrop's Invest in Kerala campaign, a
+                                business meeting was organised on 28th August at
+                                Kannur.The event was held at Talrop's Techies
+                                Park, NAHER Arts and Science College, Kanhirode,
+                                Kannur and many potential Angel Investors took
+                                part in the meeting. Talked about the needs and
+                                opportunities of Angel Investors in a startup
+                                and the risks & benefits of Angel Investing were
+                                also discussed. A detailed overview of Talrop's
+                                mission...
+                            </EventDescription>
+                            <Button
+                                onClick={() => {
+                                    navigate("/event-list-page");
+                                }}
+                            >
+                                <Texts>View More</Texts>
+                                <ArrowIconContainer>
+                                    <ArrowIcon src={arrow} alt="Icon" />
+                                </ArrowIconContainer>
+                            </Button>
+                        </EventContainer>
                     </EventsContainer>
                 </Bottom>
             </MainContainer>
@@ -134,9 +145,9 @@ export default function EventMoments() {
     );
 }
 const Container = styled.div`
-    background: #FCFBF8;
+    background: #fcfbf8;
     padding: 50px 0;
-` 
+`;
 const MainContainer = styled.div`
     width: 90%;
     margin: 0 auto;
@@ -201,7 +212,7 @@ const EventsContainer = styled.ul`
     }
     @media all and (max-width: 768px) {
         grid-template-columns: repeat(1, 1fr);
-        > *:nth-child(2n +2) {
+        > *:nth-child(2n + 2) {
             background: #fff9fb;
             border: 1px solid #ffd3e2;
         }
@@ -273,9 +284,6 @@ const Texts = styled.p`
     @media all and (max-width: 360px) {
         font-size: 14px;
     }
-`;
-const ArrowWhiteIcon = styled.img`
-    display: none;
 `;
 const ArrowIconContainer = styled.div`
     width: 7px;

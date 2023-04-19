@@ -2,7 +2,7 @@ import React from "react";
 
 // Packages
 import styled from "styled-components";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 // icons
 import dashboard from "../../../assets/icons/dashboard/dashboard.svg";
@@ -74,7 +74,7 @@ const MenuItem = styled.div`
     gap: 10px;
     margin: 0 auto;
     margin: 20px 0 20px 5px;
-    :hover{
+    :hover {
         color: #0fa76f;
     }
 `;

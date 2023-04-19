@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 // Packages
 import styled from "styled-components";
-import { Link, NavLink } from "react-router-dom";
 
 // icons
 import logo from "../../../assets/images/logo.svg";

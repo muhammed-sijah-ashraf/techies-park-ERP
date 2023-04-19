@@ -3,12 +3,6 @@ import React from "react";
 // Packages
 import styled from "styled-components";
 
-// Icons
-import underline from "../../../../assets/icons/landing-page/underline.svg";
-import arrow from "../../../../assets/icons/landing-page/arrow.svg";
-import arrowGreen from "../../../../assets/icons/landing-page/arrow-green.svg";
-import search from "../../../../assets/icons/landing-page/search.svg";
-
 // Images
 import border from "../../../../assets/images/landing-page/events/border.svg";
 import businessMeet from "../../../../assets/images/landing-page/events/business meet.png";

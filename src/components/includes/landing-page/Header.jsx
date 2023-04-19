@@ -61,7 +61,6 @@ const MainContainer = styled.header`
     padding: 40px 8%;
     z-index: 10;
     @media all and (max-width: 768px) {
-
     }
     @media all and (max-width: 768px) {
         padding: 30px 2% 30px 8%;
@@ -167,4 +166,3 @@ const Line = styled.span`
         transform: translateY(6px);
     }
 `;
-const Menu = styled.nav``;

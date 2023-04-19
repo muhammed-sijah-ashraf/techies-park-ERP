@@ -12,9 +12,10 @@ import masked_eye from "../../assets/icons/login-page/Hide.svg";
 import logo from "../../assets/images/logo.svg";
 import login_protrait from "../../assets/images/login-page/login_protrait.png";
 import login_landscape from "../../assets/images/login-page/login_landscape.png";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function Login() {
+    // eslint-disable-next-line
     const [userdata, setUserdata] = useState({ username: "", password: "" });
     const [hide, setHide] = useState(false);
     const [activeLabel, setActiveLabel] = useState("");

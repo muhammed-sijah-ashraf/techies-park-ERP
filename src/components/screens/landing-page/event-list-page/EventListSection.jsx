@@ -11,7 +11,6 @@ import arrowGreen from "../../../../assets/icons/landing-page/arrow-green.svg";
 import search from "../../../../assets/icons/landing-page/search.svg";
 
 // Images
-import eventOne from "../../../../assets/images/landing-page/events/event-one.svg";
 import eventTwo from "../../../../assets/images/landing-page/events/event-two.svg";
 import eventThree from "../../../../assets/images/landing-page/events/event-three.svg";
 
@@ -47,7 +46,7 @@ export default function EventListSection() {
                 <EventsContainer>
                     <EventContainer>
                         <EventImageContainer>
-                            <EventImage src={eventOne} alt="Meeting Image" />
+                            <EventImage src={eventThree} alt="Meeting Image" />
                         </EventImageContainer>
                         <EventDate>Aug. 25, 2022</EventDate>
                         <EventTitle>
@@ -79,7 +78,7 @@ export default function EventListSection() {
                     </EventContainer>
                     <EventContainer>
                         <EventImageContainer>
-                            <EventImage src={eventOne} alt="Meeting Image" />
+                            <EventImage src={eventThree} alt="Meeting Image" />
                         </EventImageContainer>
                         <EventDate>Aug. 25, 2022</EventDate>
                         <EventTitle>
@@ -111,7 +110,7 @@ export default function EventListSection() {
                     </EventContainer>
                     <EventContainer>
                         <EventImageContainer>
-                            <EventImage src={eventOne} alt="Meeting Image" />
+                            <EventImage src={eventThree} alt="Meeting Image" />
                         </EventImageContainer>
                         <EventDate>Aug. 25, 2022</EventDate>
                         <EventTitle>
@@ -515,7 +514,7 @@ const EventsContainer = styled.ul`
     }
     @media all and (max-width: 768px) {
         grid-template-columns: repeat(1, 1fr);
-        > *:nth-child(2n +2) {
+        > *:nth-child(2n + 2) {
             background: #fff9fb;
             border: 1px solid #ffd3e2;
         }
